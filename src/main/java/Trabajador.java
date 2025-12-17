@@ -44,8 +44,8 @@ public class Trabajador {
     }
 
     public static void main(String[] args) {
-        Trabajador trabajador = new Trabajador("Trabajador");
-        System.out.println(trabajador);
+        Trabajador t1 = new Trabajador("Aitor");
+        System.out.println(t1);
     }
 
 }
