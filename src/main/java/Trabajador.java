@@ -48,8 +48,7 @@ public class Trabajador {
     public static void main(String[] args) {
         Trabajador t1 = new Trabajador("Aitor");
         System.out.println(t1);
-        Trabajador t2 = new Trabajador("Alba");
-        t2.setCategoria(Ctes.CAT_SENIOR);
+        Trabajador t2 = new Trabajador("Javi", Ctes.CAT_PRACTICAS);
         System.out.println(t2);
     }
 
