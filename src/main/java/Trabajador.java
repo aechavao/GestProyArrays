@@ -43,4 +43,9 @@ public class Trabajador {
         return String.format("%-10s%2d E.");
     }
 
+    public static void main(String[] args) {
+        Trabajador trabajador = new Trabajador("Trabajador");
+        System.out.println(trabajador);
+    }
+
 }
